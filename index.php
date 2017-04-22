@@ -1,5 +1,5 @@
 <?php 
-// Asaph v1.0 - www.phoboslab.org 
+// Asaph-PHP7 v1.1 - https://github.com/remouk/Asaph-PHP7/ 
 
 define( 'ASAPH_PATH', '' );
 require_once( ASAPH_PATH.'lib/asaph.class.php' );
