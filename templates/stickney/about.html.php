@@ -15,7 +15,7 @@
 
 <p>
 	<?php /* Write whatever you want here, but please leave a link to phoboslab/asaph somewhere! */ ?>
-	This microblog is powered by <a href="http://www.phoboslab.org/projects/asaph">Asaph</a>.
+	This microblog is powered by <a href="https://github.com/remouk/Asaph-PHP7">Asaph-PHP7</a>.
 </p>
 
 </body>
