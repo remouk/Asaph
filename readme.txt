@@ -1,13 +1,13 @@
-Asaph version 1.0 
+WORK IN PROGRESS: Asaph-PHP7 version 1.1 
 
-Author: Dominic Szablewski
+Legacy author (until version 1.0): Dominic Szablewski
 Web: http://www.phoboslab.org/projects/asaph
 
 
 Requirements & Installation
 -------------------------------------------------------------------------
 
-Asaph needs PHP 5.0 or higher with the GD-lib installed and cURL or
+Asaph-PHP7 needs PHP 7.0 or higher with the GD-lib installed and cURL or
 allow_url_fopen enabled. Also MySQL 4.0 or higher and an already created
 database is needed. To post entries to your blog, you'll need a good
 browser (read: anything not Internet Explorer).
@@ -80,6 +80,11 @@ bug reports and suggestions.
 Changelog
 -------------------------------------------------------------------------
 
+Version 1.1
+  - Now it works with PHP7
+
+Legacy (not PHP7)
+
 Version 1.0
   - Added more comments to source files, to allow easier modification
   - New $title config variable used in templates
@@ -104,6 +109,7 @@ License
 -------------------------------------------------------------------------
 
 Copyright (C) 2008  Dominic Szablewski
+I don't know what copyright it is but I'm leaving it as legacy too.
 
 License: http://www.gnu.org/copyleft/gpl.html
 
