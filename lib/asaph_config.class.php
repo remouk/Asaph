@@ -48,7 +48,7 @@ class Asaph_Config {
 define( 'ASAPH_TABLE_POSTS',	Asaph_Config::$db['prefix'].'posts' );
 define( 'ASAPH_TABLE_USERS',	Asaph_Config::$db['prefix'].'users' );
 
-$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443 || $_SERVER['HTTP_X_FORWARDED_PORT'] == 443) ? "https://" : "http://";
+$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443 || (isset($_SERVER["HTTP_X_FORWARDED_PORT"]) && $_SERVER['HTTP_X_FORWARDED_PORT'] == 443)) ? "https://" : "http://";
 //ORG define( 'ASAPH_BASE_URL',		'http://'.Asaph_Config::$domain.Asaph_Config::$absolutePath );
 define( 'ASAPH_BASE_URL',		$protocol.Asaph_Config::$domain.Asaph_Config::$absolutePath );
 define( 'ASAPH_POST_PHP',		ASAPH_BASE_URL.'admin/post.php' );
