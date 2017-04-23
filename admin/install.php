@@ -43,14 +43,14 @@ $requirements = array(
 	'Database' => array(
 		'Connection established' => array(
 			'message' => 'Check your database settings in <code>lib/asaph_config.class.php</code>',
-			'value' => @mysql_connect( Asaph_Config::$db['host'], Asaph_Config::$db['user'], Asaph_Config::$db['password'] )
+			'value' => $link = @mysqli_connect( Asaph_Config::$db['host'], Asaph_Config::$db['user'], Asaph_Config::$db['password'] )
 		),
 		'MySQL Version >= 4.0' => array(
-			'value' => ( version_compare(@mysql_get_server_info(),'4.0') != -1 )
+			'value' => ( version_compare(@mysqli_get_server_info( $link ),'4.0') != -1 )
 		),
 		'Database exists' => array(
 			'message' => 'The database Asaph will be installed in must already exist. The installer will not attempt to create it.',
-			'value' => @mysql_select_db( Asaph_Config::$db['database'] )
+			'value' => @mysqli_select_db( $link, Asaph_Config::$db['database'] )
 		)
 	),
 	
