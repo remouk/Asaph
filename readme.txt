@@ -1,6 +1,10 @@
-WORK IN PROGRESS: Asaph-PHP7 version 1.1 
+Asaph-PHP7 version 1.1 
 
-Legacy author (until version 1.0): Dominic Szablewski
+Asaph-PHP7 only aims to make Asaph works with PHP7. No further
+enhancements are planned.
+
+PHP7 patch author: mpaquet (https://github.com/mpaquet)
+Legacy author (until Asaph 1.0): Dominic Szablewski
 Web: http://www.phoboslab.org/projects/asaph
 
 
@@ -108,8 +112,8 @@ Beta 2
 License
 -------------------------------------------------------------------------
 
+I don't know what copyright it is but I'm leaving it as legacy:
 Copyright (C) 2008  Dominic Szablewski
-I don't know what copyright it is but I'm leaving it as legacy too.
 
 License: http://www.gnu.org/copyleft/gpl.html
 
